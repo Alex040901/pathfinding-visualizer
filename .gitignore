@@ -1,10 +1,28 @@
+# CMake y compilación
+out/
+build/
+cmake-build-*/
+.cmake/
 
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos compilados
 *.exe
 *.obj
 *.pdb
 *.ilk
 *.lib
 *.dll
-build/
-.vs/
-.vscode/
+*.exp
